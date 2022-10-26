@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="img/images.png" >
+        </div>
+
+        <div class="menu">
+            <a href="" class="menuItem">Producto</a>
+            <a href="" class="menuItem">Usuarios</a>
+            <a href="" class="menuItem">Reportes</a>
+        </div>
+
+        <div class="nav">
+            <input type="text" name="txtNavegar" id="" class="barraNav" placeholder="Buscar">
+        </div>
+
+        <div class="perfil">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="12" r="9" />
+                <circle cx="12" cy="10" r="3" />
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg>
+        </div>
+    </header>
+
+    <section>
+        <div class="contNomId">
+            <label for="txtNombre">Nombre del Producto</label>
+            <input type="text" name="txtNombre" placeholder="Nombre">
+
+            <label for="txtId">ID</label>
+            <input type="text" name="txtID" placeholder="Escribe tu id">
+        </div>
+
+        <div class="contPrecio">
+            <label for="txtDescuento">Descuento</label>
+            <input type="text" name="txtDescuento" placeholder="Descuento (Opcional)">
+
+            <label for="txtPrecio">Precio</label>
+            <input type="text" name="txtPrecio" placeholder="Precio">
+        </div>
+
+        
+    </section>
 </body>
 </html>
