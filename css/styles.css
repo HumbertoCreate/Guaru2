@@ -88,3 +88,34 @@ header
 {
     cursor: pointer;
 }
+
+/* -------------- Formulario ------------------ */
+
+section
+{
+    margin: 1rem;
+    background-color: #f0ffff;
+}
+
+/* Nombre y ID */
+
+.contNomId
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contNomId label
+{
+    margin-right: 0.5rem;
+    font-size: large;
+}
+
+.contNomId input
+{
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
